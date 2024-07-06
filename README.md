@@ -11,4 +11,5 @@ As of writing this line in the ReadMe, I have yet to do the sizing responses for
 Got a royalty free image of computer code off of Bing to use for my Work section. 
 Right now I am adding the sections that the links go to. I forgot the # symbols earlier, so I am adding them now. 
 I am having a hard time getting the background to keep the color gradient. I think I am going to do a Git Push before I get too messy with this. 
-
+I still can't get the background color gradient to go all the way down the page. I added height: 100vh; so that it will fill 100% of the height viewport, but it is still not working. 
+I got the color gradient to work by removing the margin top that allowed me to push the Work section lower on the page. Now I need to try to lower it again. 

@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
    justify-content: space-between;
-   background: linear-gradient(to bottom, rgb(122, 122, 234), white);
+   min-height: 100vh;
 }
 
 img {
@@ -68,8 +68,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
-    margin-top: 500px;
+    height: 100vh;
     text-align: center;
     font-size: 1.5em;
     background: transparent;
@@ -77,7 +76,8 @@ nav ul li a:hover {
 }
 
 .Work img {
-width: 400px;
-height: 400px;
-margin-top: 15px;
+width: 300px;
+height: 300px;
+border-radius: 0;
+margin-top: 2px;
 }
