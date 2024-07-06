@@ -8,4 +8,7 @@ I put a shadow on the header text to make the page look less cartoonish.
 Using the flexes in the CSS to arrange the layout was a bit of a frustrating exercise in trial and error. I also adjusted font sizes and pixels accordingly and kept refreshing until I thought it looked how I wanted it. While surfing the internet on the subject, that is when I discovered the unit em for font sizes. I used different numbers by trial and error to get it the way I wanted it to look.
 All this was a lot of trial and error when it came to the CSS. 
 As of writing this line in the ReadMe, I have yet to do the sizing responses for smaller screens. That is always where I run into a circus. I am going to focus on setting up the page first and definitely pushing it to GitHub first. 
+Got a royalty free image of computer code off of Bing to use for my Work section. 
+Right now I am adding the sections that the links go to. I forgot the # symbols earlier, so I am adding them now. 
+I am having a hard time getting the background to keep the color gradient. I think I am going to do a Git Push before I get too messy with this. 
 
