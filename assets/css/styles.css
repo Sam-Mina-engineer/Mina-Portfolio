@@ -6,3 +6,20 @@ html, body {
 body {
     background: linear-gradient(to bottom, rgb(122, 122, 234), white);
 }
+img {
+    width: 300px;
+    border-radius: 150px;
+    margin-right: 20px;  
+}
+
+.TitleContainer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+header {
+    font-size: 6em;
+    font-weight: bold;
+    color: rgb(248, 213, 12);
+    text-shadow: 2px 2px 5px rgb(37, 36, 36);
+}
