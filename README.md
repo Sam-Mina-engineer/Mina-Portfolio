@@ -1,7 +1,7 @@
 # Mina-Portfolio
 Sam Mina's Portfolio
 This challenge was a lot of fun to put together. I enjoyed the opportunity to write code from scratch. I used the Command Line to create the new directories and files and then launched VSCode from there. It was neat remembering how to do that. Though when I started pushing the commits to GitHub, I did have to consult the Xpert Learning Assistant. I noticed that I had typos/misspellings on the commit phrases that I used, and that is embarrasing. I will try to be more careful about that going forward. I asked the Xpert about the opening lines to the HTML, since all of those are the same, such as setting the language to English, and the other meta data, etc...
-I wrapped my links in a <nav>, which is something I remembered from the first challenge.
+I wrapped my links in a nav, which is something I remembered from the first challenge.
 I referenced the code from the Module 1 Challenge as an outline for the HTML for this challenge. 
 The links I created had bullet circles next to them when I ran the page, which I thought made the website look like a clunky Word document. I didn't know how to get rid of them, but I did an internet search and that is when I learned to use the list-style-type: none. 
 I put a shadow on the header text to make the page look less cartoonish. 
@@ -16,4 +16,4 @@ I got the color gradient to work by removing the margin top that allowed me to p
 I showed the Xpert Learning assistant my code thus far and asked it how to move that section down.
 I also had the Xpert Learning assistant review the way I had the color gradient go down the page. 
 I took my color gradient issue to office hours and Instructor Andrew Bautista showed me how to fix it. The CSS line: background-repeat: no-repeat; came from him. 
-
+Added the other sections and a lot more trial and error with the CSS to get it to look right. Still working at it.

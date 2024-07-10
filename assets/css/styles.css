@@ -66,13 +66,13 @@ nav ul li a:hover {
 
 .ContentContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch;
     margin-top: 50px;
     padding: 20px;
 }
 
-.AbouMe, .Work {
+.AbouMe, .Work, .ContactMe {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
@@ -86,9 +86,15 @@ nav ul li a:hover {
 
 }
 
-.AboutME h1 {
+.AboutMe h1, .Work h1, .ContactMe h1 {
     font-size: 2em;
     color: rgb(13, 1, 1)
+}
+
+.AboutMe p, .ContactMe p {
+font-size: 1em;
+line-height: 1.5;
+margin-top: 8px;
 }
 
 
