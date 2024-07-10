@@ -70,9 +70,12 @@ nav ul li a:hover {
     align-items: stretch;
     margin-top: 50px;
     padding: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
 }
 
-.AbouMe, .Work, .ContactMe {
+.AboutMe, .Work, .ContactMe {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
@@ -82,25 +85,54 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     
 
 }
 
 .AboutMe h1, .Work h1, .ContactMe h1 {
     font-size: 2em;
-    color: rgb(13, 1, 1)
+    color: rgb(13, 1, 1);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .AboutMe p, .ContactMe p {
-font-size: 1em;
-line-height: 1.5;
-margin-top: 8px;
+text-align: column;
 }
 
 
 .Work img {
-width: 300px;
-height: 300px;
+width: 180px;
+height: 180px;
 border-radius: 0;
 margin-top: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    .ContentContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutMe, .Work, .ContactMe {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }
