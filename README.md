@@ -20,3 +20,4 @@ Added the other sections and a lot more trial and error with the CSS to get it t
 I am still struggling to get my sections to line up height wise, so I put my code into the Xpert Learning Assistant and asked it what I was doing wrong. It caught a typo that I made. I wrote AbouMe instead of AboutMe. 
 I used the CSS that I wrote for the previous challenge as a reminder on how to add responsiveness to the page for smaller screen sizes. I added the necessary elements only. I tested it on the browser using inspect and it responded to different sizes. CSS responsiveness was not a part of the previous challeng, but I had added it anyways. I looked at it again to remind myself how to do it. 
 I considered adding border lines between the sections, but I don't want to clutter the page and make it look too busy. I kind of like the simple elegance of having the different items spaced out. 
+Deployed URL is: https://sam-mina-engineer.github.io/Mina-Portfolio/#ContactMe
