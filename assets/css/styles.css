@@ -64,18 +64,33 @@ nav ul li a:hover {
 
 }
 
-.Work {
+.ContentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.AbouMe, .Work {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    margin: 20px;
+    padding: 20px;
+    background: transparent;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    text-align: center;
-    font-size: 1em;
-    background: transparent;
-    margin-top: 250px;
+    
 
 }
+
+.AboutME h1 {
+    font-size: 2em;
+    color: rgb(13, 1, 1)
+}
+
 
 .Work img {
 width: 300px;

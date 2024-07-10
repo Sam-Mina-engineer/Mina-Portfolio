@@ -15,3 +15,5 @@ I still can't get the background color gradient to go all the way down the page.
 I got the color gradient to work by removing the margin top that allowed me to push the Work section lower on the page. Now I need to try to lower it again. 
 I showed the Xpert Learning assistant my code thus far and asked it how to move that section down.
 I also had the Xpert Learning assistant review the way I had the color gradient go down the page. 
+I took my color gradient issue to office hours and Instructor Andrew Bautista showed me how to fix it. The CSS line: background-repeat: no-repeat; came from him. 
+
